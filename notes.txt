@@ -5,3 +5,14 @@ Why do we care abour types
 
 Where do we use types... Everywhere!
 
+Section 3
+Annotations 
+-We the developer tell TS the type
+
+Inference
+-TS guesses the type
+
+We will be using Inference for all cases except the following:
+1) Function that returns the 'any' type i.e. JSON.parse();
+2) Delayed initialization
+3) When the vaiable type can not be inferred, corner case
