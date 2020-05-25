@@ -1,0 +1,7 @@
+Section 2
+Why do we care abour types
+-Helps analyze for errors
+-Helps other engineers understand our codebase
+
+Where do we use types... Everywhere!
+
