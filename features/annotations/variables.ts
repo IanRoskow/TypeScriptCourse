@@ -24,7 +24,8 @@ let point: { x: number; y: number } = {
 };
 
 //Function
-const logNumber: (i: number) => void = (i: number) => {
+//added void to the function side as well as the assignment
+const logNumber: (i: number) => void = (i: number): void => {
   console.log(i);
 };
 

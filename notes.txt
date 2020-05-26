@@ -16,3 +16,11 @@ We will be using Inference for all cases except the following:
 1) Function that returns the 'any' type i.e. JSON.parse();
 2) Delayed initialization
 3) When the vaiable type can not be inferred, corner case
+
+
+Section 4
+Annotations with functions and objects
+
+No type inference on aurguments for functions, only type inference from return but we do not use it
+We will always annotate the return to ensure we require the return
+
