@@ -24,3 +24,4 @@ Annotations with functions and objects
 No type inference on aurguments for functions, only type inference from return but we do not use it
 We will always annotate the return to ensure we require the return
 
+Section 5
