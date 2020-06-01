@@ -25,3 +25,16 @@ No type inference on aurguments for functions, only type inference from return b
 We will always annotate the return to ensure we require the return
 
 Section 5
+Typed Arrays
+
+Section 6
+Tuples
+
+Using an ordered array in place of an object, tends to be better to just use objects
+
+Section 7
+Do not overly annotate functions and interfaces. Keep things generic and robust.
+
+General strategy for reusable code in TS
+-Create functions that accept arguments that are typed with interfaces
+-Objects/classes can decide to 'implement' that interface
