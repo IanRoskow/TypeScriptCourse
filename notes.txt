@@ -38,3 +38,10 @@ Do not overly annotate functions and interfaces. Keep things generic and robust.
 General strategy for reusable code in TS
 -Create functions that accept arguments that are typed with interfaces
 -Objects/classes can decide to 'implement' that interface
+
+Section 8
+Classes - blueprint to create object with values and functions
+
+Marking methods as Private does not add application security
+It only restricts which developers can use it.
+
