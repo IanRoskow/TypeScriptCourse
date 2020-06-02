@@ -4,13 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maps App</title>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_SYqn4qb5ZcWYQcCTjMKlhAJm3sioT20"
+      async
+    ></script>
+    <script src="./src/index.ts" defer></script>
   </head>
-  <body>
-    <script>
-      const s = document.createElement('script');
-      s.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.Api_Key}`;
-      document.getElementsByTagName('head')[0].appendChild(s);
-    </script>
-    <script src="./src/index.ts"></script>
-  </body>
+  <body></body>
 </html>
