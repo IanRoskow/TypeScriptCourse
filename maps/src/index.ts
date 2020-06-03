@@ -9,4 +9,4 @@ console.log(user);
 const company = new Company();
 console.log(company);
 
-google;
+new google.maps.Map(document.querySelector('#map'));
