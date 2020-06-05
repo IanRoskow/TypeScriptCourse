@@ -45,3 +45,7 @@ Classes - blueprint to create object with values and functions
 Marking methods as Private does not add application security
 It only restricts which developers can use it.
 
+Section 9 
+Design Patterns with Typescript
+
+Even if you are using a library or api's like google maps, you can hide functionality by using a private class and only exposing the private methods you have vetted.
