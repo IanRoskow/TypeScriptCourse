@@ -54,3 +54,5 @@ When you use the OR | when defining types in a class, it will only let you refer
 This should not be the approach because it is not scalable and is introducing tight coupling.
 Should use interfaces to flip the dependency. Tell all casses what they need to be an argument to a class.
 Interfaces are the gate keepers to the classes, prelabels to see if properties apply.
+
+Can export the interface, and then require each class to implement it. This will help find the errors.
