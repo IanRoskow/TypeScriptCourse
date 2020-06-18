@@ -4,8 +4,9 @@ class Node {
 }
 
 import { Sortable } from './Sorter';
+import { Sorter } from './Sorter';
 
-export class LinkedList implements Sortable {
+export class LinkedList extends Sorter implements Sortable {
   head: Node | null = null;
 
   add(data: number): void {
