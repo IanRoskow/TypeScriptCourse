@@ -21,6 +21,7 @@ var Node = /** @class */ (function () {
     }
     return Node;
 }());
+// import { Sortable } from './Sorter';
 var Sorter_1 = require("./Sorter");
 var LinkedList = /** @class */ (function (_super) {
     __extends(LinkedList, _super);

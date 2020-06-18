@@ -1,4 +1,10 @@
 "use strict";
+//No longer using interface because we implemented abstract classes
+// export interface Sortable {
+//   length: number;
+//   compare(leftIndex: number, rightIndex: number): boolean;
+//   swap(leftIndex: number, rightIndex: number): void;
+// }
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Sorter = void 0;
 var Sorter = /** @class */ (function () {

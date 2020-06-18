@@ -14,6 +14,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CharactersCollection = void 0;
+//import { Sortable } from './Sorter';
 var Sorter_1 = require("./Sorter");
 var CharactersCollection = /** @class */ (function (_super) {
     __extends(CharactersCollection, _super);

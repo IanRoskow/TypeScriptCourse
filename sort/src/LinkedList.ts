@@ -3,10 +3,10 @@ class Node {
   constructor(public data: number) {}
 }
 
-import { Sortable } from './Sorter';
+// import { Sortable } from './Sorter';
 import { Sorter } from './Sorter';
 
-export class LinkedList extends Sorter implements Sortable {
+export class LinkedList extends Sorter {
   head: Node | null = null;
 
   add(data: number): void {
