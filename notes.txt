@@ -56,3 +56,18 @@ Should use interfaces to flip the dependency. Tell all casses what they need to 
 Interfaces are the gate keepers to the classes, prelabels to see if properties apply.
 
 Can export the interface, and then require each class to implement it. This will help find the errors.
+
+Section 10
+
+When to use Interfaces vs Abstract Classes
+
+Interfaces 
+when you have a objects that are different but need the same functionality
+
+Abstract Classes 
+When you have objects that are similar and need the same functionality
+
+Interfaces - encourage louse coupling
+Abstract Classes - encourage strong coupling
+
+Use Interfaces first for better code reuse.
