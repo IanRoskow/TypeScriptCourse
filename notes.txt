@@ -71,3 +71,8 @@ Interfaces - encourage louse coupling
 Abstract Classes - encourage strong coupling
 
 Use Interfaces first for better code reuse.
+
+Section 11
+
+Enums - Main purpose of enums is to signal to other engineers that these are all related.
+Use whenever we have a small fixed set (10-15) of values that are all closely related and known at compile time.
