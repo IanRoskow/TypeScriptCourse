@@ -78,3 +78,5 @@ Enums - Main purpose of enums is to signal to other engineers that these are all
 Use whenever we have a small fixed set (10-15) of values that are all closely related and known at compile time.
 
 Use tuples to set types for arrays containing multiple values.
+
+Generics like functoin arguments but for types in class/function definitions
