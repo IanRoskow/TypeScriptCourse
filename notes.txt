@@ -79,4 +79,4 @@ Use whenever we have a small fixed set (10-15) of values that are all closely re
 
 Use tuples to set types for arrays containing multiple values.
 
-Generics like functoin arguments but for types in class/function definitions
+Generics like function arguments but for types in class/function definitions
