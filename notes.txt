@@ -80,3 +80,7 @@ Use whenever we have a small fixed set (10-15) of values that are all closely re
 Use tuples to set types for arrays containing multiple values.
 
 Generics like function arguments but for types in class/function definitions
+
+Pref compostion over class inheritance
+
+Can use static methods to call methods without createing instacne of the class.
