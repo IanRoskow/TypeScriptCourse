@@ -5,9 +5,7 @@ import { ConsoleReport } from './reportTargets/ConsoleReport';
 import { WinsAnalysis } from './analyzers/WinsAnalysis';
 import { HtmlReport } from './reportTargets/HtmlReport';
 
-const csvFileReader = new CsvFileReader('original.csv');
-
-const matchReader = new MatchReader(csvFileReader);
+const matchReader = MatchReader.fromCsv('original.csv');
 matchReader.load();
 
 const summary = new Summary(
