@@ -85,3 +85,11 @@ Generics like function arguments but for types in class/function definitions, Ge
 Pref compostion over class inheritance
 
 Can use static methods to call methods without createing instacne of the class.
+
+Section 12
+
+Generics like function arguments but for types in class/function definitions, Generics were used with the class inheritance method.
+
+It is better to annotate generics, even though there is type inference
+
+Generic constraints - can have generics extend interfaces to ensure methods on type exist.
