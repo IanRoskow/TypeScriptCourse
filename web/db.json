@@ -1,24 +1,9 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "name": "Ian Gons",
-      "age": 50
-    },
-    {
-      "name": "thomas",
-      "age": 15,
-      "id": 2
-    },
-    {
-      "name": "thomas",
-      "age": 15,
-      "id": 3
-    },
-    {
-      "name": "thomas",
-      "age": 15,
-      "id": 4
-    }
-  ]
+    "users": [
+        {
+            "name": "thomas",
+            "age": 15,
+            "id": 1
+        }
+    ]
 }
