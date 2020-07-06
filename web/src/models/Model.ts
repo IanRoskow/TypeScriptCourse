@@ -27,17 +27,12 @@ export class Model<T extends HasId> {
         private sync: Sync<T>
     ) {}
 
-    get get() {
-        return this.attributes.get;
-    }
+    //Really brittle code because it depends on when the  things were initialized inside the constructor
+    get = this.attributes.get;
 
-    get on() {
-        return this.events.on;
-    }
+    on = this.events.on;
 
-    get trigger() {
-        return this.events.trigger;
-    }
+    trigger = this.events.trigger;
 
     set(update: T): void {
         this.attributes.set(update);
