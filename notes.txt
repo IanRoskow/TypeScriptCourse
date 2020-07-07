@@ -93,3 +93,11 @@ Generics like function arguments but for types in class/function definitions, Ge
 It is better to annotate generics, even though there is type inference
 
 Generic constraints - can have generics extend interfaces to ensure methods on type exist.
+
+Section 13 - Build a Framework
+
+Always way the pros and cons between inheritance and composition.
+Compostion can fall apart because it cause verbosity.
+Generics can apply for multiple arguments.
+Avoid Type any.
+Always make the apis for a developer/user easy and straight forward. Don't let them play around with the classes.
