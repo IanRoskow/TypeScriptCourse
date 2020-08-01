@@ -101,3 +101,23 @@ Compostion can fall apart because it cause verbosity.
 Generics can apply for multiple arguments.
 Avoid Type any.
 Always make the apis for a developer/user easy and straight forward. Don't let them play around with the classes.
+
+Section 14 - Decorators
+Functions that can be used to modify/change/anything different properties/methods in the class.
+
+Decorator arguments
+1st - the prototype of the object,
+2nd - name of the object being decorated
+3rd -Property descriptor
+
+Decorator ony executed one time, when it is defined, not when an instance is created
+
+Decorator can be used to wrap entire function in additional functionality
+
+Property descriptor for methods.
+-writable - can property be changed
+-enumerable - can be looped
+-value - current value
+-configurable - can definition be changed and deleted
+
+Decorator factory, pass in custo value or method to become a closure value, then return the actual decorator function with parameters
