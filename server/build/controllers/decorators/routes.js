@@ -6,7 +6,7 @@ function routeBinder(method) {
     return function (path) {
         return function (target, key, desc) {
             Reflect.defineMetadata('path', path, target, key);
-            Reflect.defineMetadata('method', 'get', target, key);
+            Reflect.defineMetadata('method', method, target, key);
         };
     };
 }
