@@ -121,3 +121,14 @@ Property descriptor for methods.
 -configurable - can definition be changed and deleted
 
 Decorator factory, pass in custo value or method to become a closure value, then return the actual decorator function with parameters
+
+Section 15 Advanced TS with Express
+
+Use Enums to get rid of hard coded string and routes
+
+Use decorators to specify routes, methods, auth, and validator.
+
+Use property descriptor value to set an interface to what the decoratos can apply to
+
+Use a index.ts file to general export
+Use decorator factories to pass in parameters into the decorator.
