@@ -2,4 +2,5 @@
 //automatically gives it a unique integer
 export enum ActionTypes {
     fetchTodos,
+    deleTodo,
 }
