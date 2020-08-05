@@ -110,7 +110,7 @@ Decorator arguments
 2nd - name of the object being decorated
 3rd -Property descriptor
 
-Decorator ony executed one time, when it is defined, not when an instance is created
+Decorator ony executed one time when it is defined, not when an instance is created
 
 Decorator can be used to wrap entire function in additional functionality
 
@@ -122,6 +122,7 @@ Property descriptor for methods.
 
 Decorator factory, pass in custo value or method to become a closure value, then return the actual decorator function with parameters
 
+
 Section 15 Advanced TS with Express
 
 Use Enums to get rid of hard coded string and routes
@@ -132,3 +133,13 @@ Use property descriptor value to set an interface to what the decoratos can appl
 
 Use a index.ts file to general export
 Use decorator factories to pass in parameters into the decorator.
+
+Only add Typescript if you
+-get an enhanced developer experience
+-aget better type safety with error catching
+
+What we did is reimplement the library TS.ED
+
+
+Section 16 - React/Redux and Typescript
+
