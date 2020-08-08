@@ -143,3 +143,9 @@ What we did is reimplement the library TS.ED
 
 Section 16 - React/Redux and Typescript
 
+1.Always cerate an interface for each component that has details of the props.
+    -Need alot of imports
+2. Two different ways to initialize state
+3. For action types file use an enum to manage hard coded strings
+    -Also can declare union operators for action types to define action ts type in reducer
+
