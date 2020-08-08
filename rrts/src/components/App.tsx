@@ -10,9 +10,18 @@ interface AppProps {
 }
 
 class _App extends Component<AppProps> {
+    state = { fetching: false };
+
     onButtonClick = (): void => {
         this.props.fetchTodos();
+        this.setState({ fetching: true });
     };
+
+    componentDidUpdate(prevProps: AppProps): void {
+        if (!prevProps.todos.length && this.props.todos.length) {
+            this.setState({ fetching: false });
+        }
+    }
 
     onTodoClick = (id: number): void => {
         this.props.deleteTodo(id);
@@ -32,6 +41,7 @@ class _App extends Component<AppProps> {
         console.log(this.props.todos);
         return (
             <div>
+                {this.state.fetching ? 'Loading' : null}
                 <button onClick={this.onButtonClick}>Fetch</button>
                 {this.renderList()}
             </div>
