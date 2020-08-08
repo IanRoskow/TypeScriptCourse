@@ -4,7 +4,7 @@ import { FetchTodosAction, DeleteTodoAction } from './todos';
 //automatically gives it a unique integer
 export enum ActionTypes {
     fetchTodos,
-    deleTodo,
+    deleteTodo,
 }
 
 export type Action = FetchTodosAction | DeleteTodoAction;
